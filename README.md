@@ -1,8 +1,7 @@
 # Công cụ spide các urls của các bài báo trên VnExpress
+# Yêu cầu các thư viện scrapy, request
 # Sử dụng:
   >>> from vnExpressSpider import vnExpressSpiders
-  >>> spider = vnExpressSipders()
-# to get urls from an index page
-  >>> spider.getUrlsFromIndexPage('url','type')
-# to get all urls của thời sự: Hiện tại chỉ có thể 
-  >>> spider.getUrlsFromType(spider.Types[0])
+  >>> spider = vnExpressSipders() 
+  >>> spider.getUrls() #xuat ra file vnExpressUlrs.txt
+  
