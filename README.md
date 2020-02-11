@@ -3,7 +3,7 @@
 # Sử dụng:
   >>> from vnExpressSpider import vnExpressSpiders
   
-  >>> spider = vnExpressSipders() 
+  >>> spider = vnExpressSpiders() 
   
   >>> spider.getUrls() #xuat ra file vnExpressUlrs.txt
   
